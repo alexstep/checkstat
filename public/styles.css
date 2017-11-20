@@ -1,0 +1,27 @@
+
+table th, table td {
+	text-align: left;
+}
+table caption {
+	text-align: right; 
+	font-weight: 200; text-transform: uppercase; letter-spacing: 2px;
+	font-size: 28px; opacity: 0.3;
+}
+
+table tbody tr:nth-child(2n-1) {
+	background: #eee;
+}
+
+table th {
+	font-weight: 200; text-transform: uppercase; letter-spacing: 1px;
+	font-size: 12px;
+	padding: 5px;
+}
+table td {
+	padding: 5px;
+}
+
+.block {
+	max-width: 90vw;
+	margin: 50px auto;
+}
